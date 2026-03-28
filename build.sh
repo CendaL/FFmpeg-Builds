@@ -19,9 +19,9 @@ fi
 rm -rf ffbuild
 mkdir ffbuild
 
-FFMPEG_REPO="${FFMPEG_REPO:-https://github.com/FFmpeg/FFmpeg.git}"
+FFMPEG_REPO="${FFMPEG_REPO:-https://github.com/CendaL/FFmpeg.git}"
 FFMPEG_REPO="${FFMPEG_REPO_OVERRIDE:-$FFMPEG_REPO}"
-GIT_BRANCH="${GIT_BRANCH:-master}"
+GIT_BRANCH="${GIT_BRANCH:-bugfix/issue-22595}"
 GIT_BRANCH="${GIT_BRANCH_OVERRIDE:-$GIT_BRANCH}"
 
 BUILD_SCRIPT="$(mktemp)"
